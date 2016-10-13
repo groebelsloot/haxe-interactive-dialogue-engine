@@ -1,0 +1,32 @@
+# ----------------------------KATE DIALOGUE----------------------------
+
+first_encounter:
+  - kate: Hiya there Drew, it's a beautiful day isn't it?
+  - hero: Beautiful like the smile on a babies face
+  - :main
+
+matches:
+  - kate: [Naw Drew, you know I have all this work to do., Maybe you can show it to me at lunch or something.]
+  - hero: Aww ok, guess I'll have to be on my way myself too.
+  - :main
+
+triplets:
+  - kate: ["Those three little monsters are fine, thank you.", "Anything you'd like to ask me?", "I'm very busy!"]
+  - :main
+
+doorman:
+  - kate: ["Oh no not again!", "Anyway, thanks for telling Drew, gotta run!"]
+  - __kate_leaves
+  - :exit
+
+# ----------------------------HERO DIALOGUE----------------------------
+
+main:
+  - 1: [Any chance I can get that box of matches?, I want to show you a neat trick, :matches]
+  - 2: [Hiya Kate, how's the triplets?, :triplets]
+  - 3: [Well gotta go., Got to make sure that meeting is running like a smooth pumpkin., :exit]
+  - 4:
+    - {if : judy.told_about_kate==true}
+    - I heard Judy kept going on about preparing the meeting room...
+    - and that someone forgot to tell the doorman about their coming
+    - :doorman

@@ -1,0 +1,20 @@
+first_encounter:
+  - fennimore:
+    - Hey Drew!
+    - :main
+
+compliment:
+  - $fennimore.compliments++
+  - fennimore: [{if: fennimore.compliments==0}, You bet Drew! Told you there's no game like Parrises Squares!]
+  - fennimore: [{if: fennimore.compliments==1}, Thanks again!]
+  - fennimore: [{if: fennimore.compliments==2}, Thanks!]
+  - fennimore: [{if: fennimore.compliments==3}, Well... gee...]
+  - :main
+
+#----------------------------HERO OPTIONS------------------------------
+main:
+  - 1: [{if: once},"Hey buddy, you look sharp as always!", :compliment]
+  - 1: [{if: once},"Hey buddy, you're on fire!", :compliment]
+  - 1: [{if: once},"Hey Fennimore, I want more!", :compliment]
+  - 1: [{if: once},"Ok that's it, I'm calling the authorities! Red hot alert!", :compliment]
+  - 4: ["Sorry Mr. sharp, gotta go market me some foodstuffs", :exit]
