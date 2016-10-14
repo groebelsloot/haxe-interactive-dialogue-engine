@@ -7,7 +7,7 @@ On our blog I wrote three posts about how this interactive dialogue engine works
 
 ##Dialogue files
 
-Check out the resource directory for two example dialogue files (in [YAML](http://yaml.org/)) that this interactive dialogue engine can handle. The idea behind this format is:
+Check out the [resources](https://github.com/groebelsloot/haxe-interactive-dialogue-engine/tree/master/resources) directory for two example dialogue files (in [YAML](http://yaml.org/)) that this interactive dialogue engine can handle. The idea behind this format is:
 
 - It tries to avoid mark-up to improve legibility (hence YAML)
 - It supports/encourages topic-based clustering of dialogue lines/text, so it's easy to follow the dialogue flow without using any other tool or doing any in game testing
