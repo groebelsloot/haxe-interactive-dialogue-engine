@@ -23,4 +23,4 @@ Well you can't... unless you build your own game engine using [Haxe](http://haxe
 
 Feel free to ask anything
 
-I hope this code can be useful to you
+We hope this code can be useful to you
