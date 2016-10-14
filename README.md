@@ -3,7 +3,7 @@
 This is the code for the interactive dialogue engine taken out of 'Trog': the 2D point 'n click adventure game engine. Trog was built by [Mic Uurloon](https://twitter.com/MicUurloon) and [myself](https://twitter.com/jacobjanblom)
 
 All development related to this game engine can be followed on [Groebelsloot](http://groebelsloot.com), which we very sparsely update.
-On our blog I wrote three posts about how this interactive dialogue engine works, so whenever trying to use this code, it's most useful to check out the ideas behind it there.
+On our blog I wrote three ([part 1](http://www.groebelsloot.com/2016/01/04/interactive-dialogue-adventure-game-part-1/), [part 2](http://www.groebelsloot.com/2016/01/20/interactive-dialogue-part-2/), [part 3](http://www.groebelsloot.com/2016/10/14/interactive-dialogue-part-3/) ) posts about how this interactive dialogue engine works, so whenever trying to use this code, it's most useful to check out the ideas behind it there.
 
 ##Dialogue files
 
